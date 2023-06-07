@@ -59,7 +59,7 @@ export const UsersList = () => {
   const dispatch = useDispatch();
   const [visibleUsersCount, setVisibleUsersCount] = useState(3);
 
-  const { items, isLoading, error, fetchedData } = useSelector(selectUsers);
+  const { isLoading, error, fetchedData } = useSelector(selectUsers);
   const getVisibleUsers = useSelector(selectFilteredUsers);
 
   // Вызываем операцию
