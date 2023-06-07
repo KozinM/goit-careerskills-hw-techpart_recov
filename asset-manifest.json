@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-careerskills-hw-techpart_recov/static/css/main.a3fa2585.css",
-    "main.js": "/goit-careerskills-hw-techpart_recov/static/js/main.36b092ba.js",
+    "main.css": "/goit-careerskills-hw-techpart_recov/static/css/main.4b2971dc.css",
+    "main.js": "/goit-careerskills-hw-techpart_recov/static/js/main.54afe8cb.js",
+    "static/media/pictureQuestion.png": "/goit-careerskills-hw-techpart_recov/static/media/pictureQuestion.010ab3c33bc13f300d33.png",
+    "static/media/logo.svg": "/goit-careerskills-hw-techpart_recov/static/media/logo.342caecd8dad446557653fe01b2216de.svg",
     "index.html": "/goit-careerskills-hw-techpart_recov/index.html",
-    "main.a3fa2585.css.map": "/goit-careerskills-hw-techpart_recov/static/css/main.a3fa2585.css.map",
-    "main.36b092ba.js.map": "/goit-careerskills-hw-techpart_recov/static/js/main.36b092ba.js.map"
+    "main.4b2971dc.css.map": "/goit-careerskills-hw-techpart_recov/static/css/main.4b2971dc.css.map",
+    "main.54afe8cb.js.map": "/goit-careerskills-hw-techpart_recov/static/js/main.54afe8cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fa2585.css",
-    "static/js/main.36b092ba.js"
+    "static/css/main.4b2971dc.css",
+    "static/js/main.54afe8cb.js"
   ]
 }
