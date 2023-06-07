@@ -19,9 +19,11 @@ const usersSlice = createSlice({
         for (const user of state.items) {
           if (user.id === action.payload) {
             if (user.status === usersFilters.follow) {
-              user.status = usersFilters.followings; 
+              user.status = usersFilters.followings;
+              user.followers=user.followers+1; 
             } else {
               user.status = usersFilters.follow;
+              user.followers=user.followers-1; 
             }
             break;
           }
