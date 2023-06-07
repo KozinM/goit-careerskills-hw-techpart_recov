@@ -1,0 +1,5 @@
+.filterSelect {
+    display: flex;
+    margin: 0 0 20px auto;
+    justify-content: right;
+}

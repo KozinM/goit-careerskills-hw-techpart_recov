@@ -10,9 +10,7 @@ const usersInitialState = {
 };
 
 const usersSlice = createSlice({
-  // slice name
   name: 'users',
-  // initial state of reducer
   initialState: usersInitialState,
   reducers:{
       userFollowToggle(state, action) {
@@ -44,39 +42,9 @@ const usersSlice = createSlice({
       state.isLoading = false;
       state.error = action.payload;
     },
-    // Код редюсеров добавления
-/*     [addContact.pending](state) {
-      state.isLoading = true;
-    },
-    [addContact.fulfilled](state, action) {
-      state.isLoading = false;
-      state.error = null;
-      state.items.push(action.payload);
-    },
-    [addContact.rejected](state, action) {
-      state.isLoading = false;
-      state.error = action.payload;
-    },
-    // Код редюсеров удаления
-    [deleteContact.pending](state) {
-      state.isLoading = true;
-    },
-    [deleteContact.fulfilled](state, action) {
-      state.isLoading = false;
-      state.error = null;
-      const index = state.items.findIndex(
-        contact => contact.id === action.payload.id
-      );
-      state.items.splice(index, 1);
-    },
-    [deleteContact.rejected](state, action) {
-      state.isLoading = false;
-      state.error = action.payload;
-    }, */
   },
 });
 
-// slice's reducer
 export const usersReducer = usersSlice.reducer;
 
 export const { userFollowToggle } = usersSlice.actions;

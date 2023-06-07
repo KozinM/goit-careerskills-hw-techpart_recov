@@ -32,7 +32,6 @@ const middleware = [
 const PersistConfig = {
   key: 'root',
   storage,
-  /* whitelist: ['token'], */
 };
 
 export const store = configureStore({
